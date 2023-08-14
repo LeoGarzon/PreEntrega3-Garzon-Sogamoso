@@ -1,0 +1,30 @@
+.footer{
+    &__content{
+        padding: 40px 0;
+      }
+    
+      
+      @media (min-width:1024px) {
+        &__content{
+          padding: 80px 120px;
+        }
+      }
+      
+      &__nav{
+        border-bottom: 1px solid black;
+        padding-bottom: 40px;
+      }
+      
+      &__content nav ul{
+        list-style: none;
+        padding: 0;
+        display: flex;
+        gap: 20px;
+      }
+
+      
+      
+
+
+}
+

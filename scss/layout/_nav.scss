@@ -1,0 +1,33 @@
+.navbar{
+  .collapse.navbar-collapse{
+    flex-grow: inherit;
+
+  }
+
+  .a{
+    color: $color-segundary;
+  } 
+  .navbar-toggler{
+    border-color: $color-segundary;
+  }
+ 
+  .navbar-toggler:focus{
+    box-shadow: none;
+  }
+
+}
+
+.header__img{
+  width: 420px;
+}
+
+  
+
+
+
+
+
+
+
+
+

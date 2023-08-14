@@ -1,0 +1,40 @@
+.header{
+    &__img{
+        width: 420px;
+      }
+    
+      @media (min-width: 576px) {
+        &__img{
+          width: auto;
+          height: auto;
+          object-fit: cover;
+        }
+      }
+
+      &__collection{
+        padding:40px 0;
+      }
+      
+      @media (min-width:1024px) {
+        &__collection{
+          padding: 80px 120px;
+        }
+      }
+      
+      
+      &__collection__button{
+        width: fit-content;
+        background-color: transparent;
+        color: #FC4308;
+        border: 1px solid #FC4308;
+        padding: 10px 20px;
+        border-radius: 5px;
+        font-size: 16px;
+        font-weight: 400;
+      }
+
+}
+
+
+
+ 

@@ -1,0 +1,14 @@
+.col{
+    @media (min-width: 576px) {
+        &{
+            border-radius: 20px;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            padding: 34px 68px;
+        }
+      }
+
+
+}
+

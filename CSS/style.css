@@ -1,0 +1,145 @@
+div {
+    background-color: rgb(180, 209, 247);
+}
+
+
+
+.navbar .collapse.navbar-collapse{
+    flex-grow: inherit;
+  }
+
+  .navbar a{
+    color: black;
+  }
+
+  .navbar .navbar-toggler{
+    border-color: black;
+  }
+
+  .navbar .navbar-toggler:focus{
+    box-shadow: none;
+  }
+
+  
+  .header__img{
+    width: 420px;
+  }
+
+  @media (min-width: 576px) {
+    .header__img{
+      width: auto;
+      height: auto;
+      object-fit: cover;
+    }
+  }
+
+  @media (min-width: 576px) {
+    .col{
+        border-radius: 20px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        padding: 34px 68px;
+    }
+  }
+
+  .collection{
+    padding:40px 0;
+  }
+  
+  @media (min-width:1024px) {
+    .collection{
+      padding: 80px 120px;
+    }
+  }
+  
+  
+  .collection__button{
+    width: fit-content;
+    background-color: transparent;
+    color: #FC4308;
+    border: 1px solid #FC4308;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-size: 16px;
+    font-weight: 400;
+  }
+
+  #comboOperacion, #comboServicio, #comboCantidad, #botonBuscar{
+    position: absolute;
+      width: 150px;
+      height: 33px;
+  }
+  
+  
+  #comboOperacion {
+    top: 250px;
+    left: 226px;
+    width: 201px;
+  }
+  
+  #comboServicio {
+    top: 250px;
+    left: 429px;
+    width: 225px;
+  }
+  
+  
+  #comboCantidad{
+    top: 250px;
+    left: 659px;
+  }
+  #botonBuscar{
+    top: 250px;
+    left: 960px;
+  }
+  
+  #tituloFiltro{
+    text-transform: none;
+    position: relative;
+    top: 217px;
+    left: -260px;  
+  }
+  
+  #displayIndex{
+    border: 1px solid black;
+    margin: 20px; 
+    padding: 0px;
+  }
+  
+  #displayIndex ul{
+    margin-left: 20px;
+  
+  }
+  
+  
+  p {
+    margin-top: 0px;
+    margin-bottom: 8px;
+    margin-left: 30px;
+  }
+  
+  
+  .footer__content{
+    padding: 40px 0;
+  }
+
+  
+  @media (min-width:1024px) {
+    .footer__content{
+      padding: 80px 120px;
+    }
+  }
+  
+  .footer__nav{
+    border-bottom: 1px solid black;
+    padding-bottom: 40px;
+  }
+  
+  .footer__content nav ul{
+    list-style: none;
+    padding: 0;
+    display: flex;
+    gap: 20px;
+  }
+  
